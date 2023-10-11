@@ -17,9 +17,9 @@ public class Dowhileganjil {
         int x = s.nextInt();
         System.out.println("Bilangan ganjilnya adalah : ");
         int counter = 1;
-        while (x >= counter){
+        do{
             System.out.println(counter + " ");
             counter += 2;
-        }
+        } while (x >= counter);
     }
 }
